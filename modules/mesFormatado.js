@@ -1,6 +1,5 @@
-const data = require('./data');
-
 module.exports = () => {
+    const data = new Date();
     switch (data.getMonth()) {
         case 0:
             return "Janeiro";
